@@ -263,9 +263,10 @@ p {
 }
 
 footer {
+    padding: 0 4rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #171818;
     height: 10vh;
 }
@@ -280,6 +281,24 @@ footer a {
     text-decoration: none;
     font-weight: bolder;
     color: #4A55A2;
+}
+
+footer img {
+    animation: float 4s ease-in-out infinite;
+    width: 60px;
+    height: 60px;
+}
+
+/*Animação*/
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
 }
 
 /*Media querys*/
@@ -421,6 +440,12 @@ footer a {
     
     #serviços button {
         width: 15%;
+    }
+
+    footer img {
+        animation: float 4s ease-in-out infinite;
+        width: 40px;
+        height: 40px;
     }
 }
 
@@ -633,5 +658,9 @@ footer a {
     
     footer p {
         font-size: 14px;
+    }
+
+    footer img {
+        display: none;
     }
 }
