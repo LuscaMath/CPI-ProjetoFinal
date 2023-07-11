@@ -286,6 +286,11 @@ footer a {
 
 @media (max-width: 1366px) {
 
+    header img {
+        width: 75px;
+        height: 75px;
+    }
+
     header nav a {
         font-size: 16px;
     }
@@ -336,7 +341,7 @@ footer a {
 
     #sobre {
         align-items: center;
-        gap: 60px;
+        gap: 30px;
         background-color: #4A55A2;
         padding: 131px 0px;
         height: 100vh;
