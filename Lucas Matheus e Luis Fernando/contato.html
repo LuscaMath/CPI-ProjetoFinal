@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lucas Matheus e Luis Fernando">
+    <meta name="keywords" content="Criação de websites, design e layouts">
+    <link rel="stylesheet" href="contato.css">
+    <script src="script.js" defer></script>
+    <title>Contato</title>
+</head>
+
+<body>
+    <header>
+        <img src="./imagens/Logo-menor.png" alt="Logo da empresa LM">
+        <nav id="navigation">
+            <a href="index.html">INICIO</a>
+            <a href="index.html#sobre">SOBRE</a>
+            <a href="index.html#serviços">SERVIÇOS</a>
+            <a href="#">CONTATO</a>
+            <button onclick="redireciona()">Saiba Mais</button>
+        </nav>
+        <img id="menu-hamburger" class="hamburger" src="./imagens/hamburger.svg" alt="">
+    </header>
+
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-info">
+                <p class="main-title-contact">Tem algum projeto em mente?<span class="span-contact"> Entre em
+                        contato!</span></p>
+                <div class="info-content">
+                    <p class="title-contact">Projetos Para</p>
+                    <p class="subTitle-contact">Web e Mobile</p>
+                </div>
+                <div class="info-content">
+                    <p class="title-contact">Telefone</p>
+                    <p class="subTitle-contact">(61) 98550-3644</p>
+                </div>
+                <div class="info-content">
+                    <p class="title-contact">Email</p>
+                    <p class="subTitle-contact">lm.tec@outlook.com</p>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form class="form">
+                    <input name="nome" type="text" placeholder="Digite o seu nome">
+                    <input name="email" type="text" placeholder="Digite o seu email">
+                    <textarea name="mensage" id="" cols="50" rows="4" placeholder="Digite sua mensagem"></textarea>
+                    <button>Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Desenvolvido por <a target="_blank" href="https://www.instagram.com/luscasmath/">Lucas Matheus</a> e <a target="_blank" href="https://www.instagram.com/lfernando_ricarte">Luis Fernando</a></span> - 2023</p>
+    </footer>
+
+    <script>
+        const redireciona = () => {
+            window.open("https://api.whatsapp.com/send/?phone=5561985503644&text&type=phone_number&app_absent=0")
+        }
+    </script>
+
+</body>
+
+</html>
