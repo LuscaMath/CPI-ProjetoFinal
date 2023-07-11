@@ -26,6 +26,7 @@ header img {
 
 header nav {
     display: flex;
+    align-items: center;
     gap: 1.5rem;
 }
 
@@ -281,7 +282,7 @@ footer a {
     color: #4A55A2;
 }
 
-/*Media Queries*/
+/*Media querys*/
 
 @media (max-width: 420px) {
     header {
@@ -312,7 +313,7 @@ footer a {
     }
 
     header nav button {
-        font-size: 80%;
+        font-size: 75%;
         width: 40%;
         align-self: center;
     }
