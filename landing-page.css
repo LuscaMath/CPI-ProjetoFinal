@@ -283,7 +283,7 @@ footer a {
 
 /*Media Queries*/
 
-@media (max-width: 390px) {
+@media (max-width: 420px) {
     header {
         padding: 2rem;
     }
