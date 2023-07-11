@@ -195,6 +195,25 @@ footer a {
 
 /*Media querys*/
 
+@media (max-width: 1366px) {
+  header nav a {
+    font-size: 16px;
+  }
+
+  header button {
+    padding: 15px 40px;
+    font-size: 14px;
+  }
+
+  .contact-section .contact-container .contact-info {
+    width: 50%;
+  }
+
+  .contact-section .contact-container .contact-form {
+    width: 50%;
+  }
+}
+
 @media (max-width: 420px) {
   header {
     padding: 2rem;
@@ -257,11 +276,11 @@ footer a {
     font-family: "Roboto", sans-serif;
     font-size: 2rem;
   }
-  
+
   .contact-section .contact-container .contact-info .info-content .title-contact {
     font-size: 1.05rem;
   }
-  
+
   .contact-section .contact-container .contact-info .info-content .subTitle-contact {
     font-size: 1rem;
     color: #4A55A2;
@@ -277,7 +296,7 @@ footer a {
     font-size: 1rem;
     padding: 1rem;
   }
-  
+
   .contact-section .contact-container .contact-form .form textarea {
     font-size: 1rem;
   }
