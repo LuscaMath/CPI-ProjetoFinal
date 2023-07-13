@@ -11,6 +11,8 @@
 }
 
 header {
+    position: sticky;
+    top: 0;
     background-color: #171818;
     display: flex;
     justify-content: space-between;
@@ -142,7 +144,7 @@ header button:hover {
 #sobre p {
     width: 30%;
     color: #FFF;
-    text-align: center;
+    text-align: justify;
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
